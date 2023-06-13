@@ -47,6 +47,12 @@ export const Form = styled.div`
 
     margin-top: 42px;
   }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 `
 
 export const Background = styled.div`

@@ -10,14 +10,12 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
-  gap: 16px;
-
-  margin-bottom: 8px;
 
   > input {
     height: 56px;
     width: 100%;
 
+    padding-left: 24px;
     background: transparent;
     border: 0;
 

@@ -11,8 +11,10 @@ export function SignIn() {
         <p>Aplicação para acompanhar tudo que assistir.</p>
 
         <h2>Faça seu login</h2>
-        <Input type="email" placeholder="E-mail" />
-        <Input type="password" placeholder="Senha" />
+        <div className="inputs">
+          <Input type="email" placeholder="E-mail" />
+          <Input type="password" placeholder="Senha" />
+        </div>
         <Button title="Entrar" />
 
         <a href="#">Criar Conta</a>
