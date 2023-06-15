@@ -4,6 +4,8 @@ export const Container = styled.div`
   height: 56px;
   width: 100%;
 
+  min-width: 200px;
+
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
   color: ${({ theme }) => theme.COLORS.GRAY_200};
   border-radius: 10px;

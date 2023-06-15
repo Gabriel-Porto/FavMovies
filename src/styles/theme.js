@@ -5,8 +5,11 @@ export default {
       BACKGROUND_700: "#262529",
   
       WHITE: "#FFFFFF",
-      PINK: "#FF859B",
+
+      GOLD: "#FFD700",
+      GOLD_SECONDARY:"#292300",
   
+      GRAY_300: "#4d4950",
       GRAY_200: "#948F99",
       GRAY_100: "#F4EDE8",
 

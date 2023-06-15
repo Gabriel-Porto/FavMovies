@@ -1,10 +1,10 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
+export const Container = styled.button`
   min-height: 56px;
   width: 100%;
 
-  background-color: ${({ theme }) => theme.COLORS.PINK};
+  background-color: ${({ theme }) => theme.COLORS.GOLD};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
   display: flex;
@@ -18,7 +18,6 @@ export const Container = styled.div`
   cursor: pointer;
 
   padding: 0 16px;
-  margin-top: 16px;
 
   &:disabled {
     opacity: 0.5;

@@ -13,9 +13,11 @@ export function SignUp() {
         <p>Aplicação para acompanhar tudo que assistir.</p>
 
         <h2>Crie sua Conta</h2>
-        <Input type="text" placeholder="Nome" />
-        <Input type="email" placeholder="E-mail" />
-        <Input type="password" placeholder="Senha" />
+        <div className="inputs">
+          <Input type="text" placeholder="Nome" />
+          <Input type="email" placeholder="E-mail" />
+          <Input type="password" placeholder="Senha" />
+        </div>
         <Button title="Entrar" />
 
         

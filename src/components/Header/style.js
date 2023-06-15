@@ -1,23 +1,26 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  width: 100%;
+  min-width: 100%;
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
   height: 123px;
+
+  grid-area: header;
 
   padding: 24px 123px;
   display: flex;
   align-items: center;
   gap: 64px;
-  
+
+  border-bottom: 1px solid ${({ theme }) => theme.COLORS.GRAY_300};
+
   > h1 {
-    color: ${({ theme }) => theme.COLORS.PINK};
+    color: ${({ theme }) => theme.COLORS.GOLD};
     font-weight: 700;
     line-height: 32px;
   }
 
   .profileSection {
-    width: 18%;
     display: flex;
     justify-content: center;
     align-items: center;

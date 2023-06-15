@@ -1,6 +1,5 @@
 import styled from "styled-components"
-import backgroundImg  from "../../assets/movietheater.png";
-
+import backgroundImg from "../../assets/movietheater.png"
 
 export const Container = styled.div`
   height: 100vh;
@@ -15,11 +14,10 @@ export const Form = styled.div`
   flex-direction: column;
   justify-content: center;
 
-
   margin: 0 auto;
 
   > h1 {
-    color: ${({ theme }) => theme.COLORS.PINK};
+    color: ${({ theme }) => theme.COLORS.GOLD};
     font-weight: bold;
     font-size: 48px;
   }
@@ -41,7 +39,7 @@ export const Form = styled.div`
   }
 
   > a {
-    color: ${({ theme }) => theme.COLORS.PINK};
+    color: ${({ theme }) => theme.COLORS.GOLD};
     font-weight: 500;
     align-self: center;
 
@@ -53,11 +51,15 @@ export const Form = styled.div`
     flex-direction: column;
     gap: 8px;
   }
+
+  > button {
+    margin-top: 16px;
+  }
 `
 
 export const Background = styled.div`
-    flex: 1;
-    background: url(${backgroundImg}) no-repeat center center;
-    filter: brightness(0.8);
-    background-size: cover;
+  flex: 1;
+  background: url(${backgroundImg}) no-repeat center center;
+  filter: brightness(0.8);
+  background-size: cover;
 `
