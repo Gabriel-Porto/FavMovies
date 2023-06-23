@@ -1,34 +1,34 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
-  min-width: 100%;
+export const Container = styled.header`
+  width: 100%;
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
-  height: 123px;
+  height: 12.3rem;
 
   grid-area: header;
 
-  padding: 24px 123px;
+  padding: 2.4rem 12.3rem;
   display: flex;
   align-items: center;
-  gap: 64px;
+  gap: 6.4rem;
 
   border-bottom: 1px solid ${({ theme }) => theme.COLORS.GRAY_300};
 
   > h1 {
     color: ${({ theme }) => theme.COLORS.GOLD};
     font-weight: 700;
-    line-height: 32px;
+    line-height: 3.2rem;
   }
 
   .profileSection {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 9px;
+    gap: .9rem;
 
     > img {
-      width: 64px;
-      height: 64px;
+      width: 6.4rem;
+      height: 6.4rem;
     }
   }
 
@@ -36,8 +36,13 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: end;
+
     > a {
       color: ${({ theme }) => theme.COLORS.GRAY_200};
+    }
+
+    > h4 {
+      min-width: max-content;
     }
   }
 `

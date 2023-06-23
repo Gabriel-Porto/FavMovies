@@ -7,8 +7,9 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
-    root {
+    html {
         font-size: 62.5%;
+        overflow-x: hidden;
     }
 
     body {
@@ -20,7 +21,7 @@ export default createGlobalStyle`
 
     body, input, buttons, textarea {
         font-family: 'Roboto Slab', sans-serif;
-        font-size: 16px;
+        font-size: 1.6rem;
         outline: none;
     }
 

@@ -10,15 +10,15 @@ export const Container = styled.div`
 
   > main {
     grid-area: content;
-    margin: 45px 110px 50px;
+    margin: 4.5rem 11rem 5rem;
   }
 
   .cards {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2.4rem;
 
-    margin-top: 37px;
+    margin-top: 3.7rem;
   }
 `
 
@@ -26,6 +26,8 @@ export const Title = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  width: 100%;
 
   > button {
     width: 200px;
