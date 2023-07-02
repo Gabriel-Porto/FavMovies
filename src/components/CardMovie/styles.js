@@ -7,17 +7,25 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 1.5rem;
 
-  height: 22.2rem;
+  height: fit-content;
 
   border-radius: 1.6rem;
 
   padding: 3.2rem;
 
+  .score {
+    color: ${({ theme }) => theme.COLORS.GOLD};
+    display: flex;
+    gap: .4rem;
+  }
+
   > p {
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    height: 5.2rem;
+
+    min-height: 5.2rem;
+
     overflow: hidden;
     color: var(--gray, #999591);
     font-family: Roboto;

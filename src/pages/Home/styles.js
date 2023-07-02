@@ -17,8 +17,9 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
-
-    margin-top: 3.7rem;
+    
+    margin-top: 2.34rem;
+    padding-bottom: 6rem;
   }
 `
 
@@ -30,7 +31,7 @@ export const Title = styled.div`
   width: 100%;
 
   > button {
-    width: 200px;
+    width: 20rem;
     font-weight: 700;
   }
 `

@@ -2,8 +2,6 @@ import { Container, Form, Background } from "./styles"
 import { Input } from "../../components/Input"
 import { Button } from "../../components/Button"
 import { ButtonText } from "../../components/ButtonText"
-import { FiArrowLeft } from "react-icons/fi"
-
 
 export function SignUp() {
   return (
