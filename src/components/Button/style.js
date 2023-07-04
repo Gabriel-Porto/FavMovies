@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.button`
-  min-height: 56px;
+  min-height: 4.8rem;
   width: 100%;
 
   background-color: ${({ theme }) => theme.COLORS.GOLD};

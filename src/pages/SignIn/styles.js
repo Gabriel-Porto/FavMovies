@@ -54,6 +54,7 @@ export const Form = styled.div`
 
   > button {
     margin-top: 16px;
+    min-height: 5.6rem;
   }
 `
 

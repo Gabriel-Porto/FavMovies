@@ -16,13 +16,13 @@ export default createGlobalStyle`
         background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
         color: ${({ theme }) => theme.COLORS.WHITE};
  
-        --webkit-font-smoothing: antialiased;
     }
-
-    body, input, buttons, textarea {
+    
+    body, input, button, textarea {
         font-family: 'Roboto Slab', sans-serif;
         font-size: 1.6rem;
         outline: none;
+        --webkit-font-smoothing: antialiased;
     }
 
     a {
