@@ -7,17 +7,6 @@ import { FiPlus } from "react-icons/fi"
 // import { useEffect, useState } from "react"
 
 export function Home() {
-  // const [movies, setMovies] = useState([])
-
-  // const fetchMovies = () => {
-  //   fetch("https://jsonplaceholder.typicode.com/posts?_limit=2")
-  //     .then((response) => response.json())
-  //     .then((data) => setMovies(data))
-  // }
-
-  // useEffect(() => {
-  //   fetchMovies()
-  // }, [])
 
   const moviesMock = [
     {
@@ -67,7 +56,7 @@ export function Home() {
         <div className="cards">
           {moviesMock.map((movie) => (
             <CardMovie
-              key={movie.id}
+              key={i}
               title={movie.title}
               rating={movie.rating}
               synopsis={movie.synopsis}

@@ -10,13 +10,14 @@ import { SignUp } from "./pages/SignUp"
 import { SignIn } from "./pages/SignIn"
 import { Home } from "./pages/Home"
 import { Profile } from "./pages/Profile"
+import { MovieSearch } from "./pages/MovieSearch"
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Profile />
+      <MovieSearch />
     </ThemeProvider>
   </React.StrictMode>
 )

@@ -24,7 +24,7 @@ export const Container = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .9rem;
+    gap: 0.9rem;
 
     > img {
       width: 6.4rem;
@@ -43,6 +43,12 @@ export const Container = styled.header`
 
     > h4 {
       min-width: max-content;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .displayNone {
+      display: none;
     }
   }
 `

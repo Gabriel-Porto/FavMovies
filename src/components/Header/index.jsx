@@ -2,9 +2,15 @@ import { Container } from "./style"
 import { Input } from "../Input"
 
 export function Header() {
+
+  const handleReponsiviseness = () => {
+    const profileSection = document.querySelector(".title")
+    profileSection.classList.toggle("displayNone")
+  }
+
   return (
     <Container>
-      <h1>FavMovies</h1>
+      <h1 className="title">FavMovies</h1>
       <Input placeholder="Pesquisar pelo título" />
       <div className="profileSection">
         <div className="profileName">

@@ -13,11 +13,6 @@ export const Container = styled.div`
 
   padding: 3.2rem;
 
-  .score {
-    color: ${({ theme }) => theme.COLORS.GOLD};
-    display: flex;
-    gap: .4rem;
-  }
 
   > p {
     display: flex;
